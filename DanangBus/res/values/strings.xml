@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Đà Nẵng Xe Buýt </string>
+    <string name="action_settings">Cài Đặt </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_id">1499942016937613</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Trang Chủ </item>
+        <item >Tìm Kiếm </item>
+        <item >Tuyến Đà Nẵng </item>
+        <item >Bản Đồ </item>
+        <item >Thông Tin </item>
+        <item >FaceBook</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_route</item>
+        <item>@drawable/ic_maps</item>
+        <item>@drawable/ic_info</item>
+        <item>@drawable/ic_link</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <!-- Du lieu Da Nang -->
+    <string-array name="provincedescription">
+   <item>Thời gian : 5h30 đến 18h hàng ngày.</item>
+   <item>Thời gian : 5h30 đến 18h hàng ngày </item>
+   <item>Thời gian : 5h30 đến 18h hàng ngày</item>
+   <item>Thời gian : 5h đến 18h hàng ngày</item>
+   <item>Thời gian : 5h30 đến 17h hàng ngày </item>
+   <item>Thời gian : 05h15 đến 16h30 hàng ngày </item>
+  
+</string-array> 
+<string-array name="txttest">
+   <item>Giá: Từ 8.000 đến 15.000 đồng/lượt.</item>
+   <item>Giá: Từ 5.000, 10.000 đồng/lượt.Miễn phí vé khi có phiếu mua hàng tại siêu thị Big C Đà Nẵng trong ngày</item>
+    <item>Giá: Từ 8.000 đến 15.000 đồng/lượt.</item>
+   <item>Giá: Từ 8.000, 15.000, 30.000 đồng/lượt.</item>
+   <item>Giá: Tùy theo tuyến đi của khách hàng có nhiều mức giá khác nhau.</item>
+   <item>Giá: 25.000 đồng/suốt chuyến.</item>
+</string-array> 
+<string-array name="tansuat">
+   <item>Tần suất: 20 phút/chuyến.  </item>
+   <item>Tần suất: 15 phút/chuyến. </item>
+   <item>Tần suất: 20 phút/chuyến. </item>
+   <item>Tần suất: 30 phút/chuyến. </item>
+   <item>Tần suất: 30 phút/chuyến.  </item>
+   <item>Tần suất: 20 – 30 phút/chuyến .</item>
+   
+</string-array> 
+<string-array name="changduong">
+   <item>Chặn Đường: 30Km/40 trạm/chuyến.</item>
+   <item>Chặn Đường: 15,5Km/chuyến.</item>
+   <item>Chặn Đường: 29Km/chuyến.</item>
+   <item>Chặn Đường: 70Km/chuyến.</item>
+   <item>Chặn Đường: 60Km/50 trạm/chuyến.</item>
+   <item>Chặn Đường: 59Km/chuyến.</item>
+  
+</string-array> 
+<string-array name="luotdi">
+   <item>- Lượt đi:</item>
+   <item>- Lượt đi:</item>
+   <item>- Lượt đi:</item>
+   <item>- Lượt đi:</item>
+   <item>- Lượt đi:</item>
+   <item>- Lượt đi:</item>
+</string-array> 
+<string-array name="chitietluotdi">
+   <item> Đường phía Đông bến xe Trung tâm - Đường phía Bắc bến xe Trung tâm - Tôn Đức Thắng - Điện Biên Phủ - Lê Duẩn - Trần Phú - Trưng Nữ Vương - Duy Tân - Cầu Nguyễn Văn Trỗi - Ngũ Hành Sơn - Lê Văn Hiến - Bến xe Hội An.</item>
+   <item> Kim Liên- Nguyễn Lương Bằng - Tôn Đức Thắng - Điện Biên Phủ - Lý Thái Tổ - Hùng Vương - Trần Phú - Trần Quốc Toản - Bạch Đằng.</item>
+   <item>Bến xe Trung tâm thành phố Đà Nẵng- Tôn Đức Thắng- Điện Biên Phủ- Lý Thái Tổ- Hùng Vương- Ông Ích Khiêm- Hoàng Diệu- Trưng Nữ Vương- Núi Thành- Cánh Mạng tháng Tám- Hoà Câm- Quộc lộ 14B- Ngã ba Hoà Đông- Bệnh viện Bắc Quảng Nam- Ngã tư Ái Nghĩa- Bến xe Ái Nghĩa</item>
+   <item>Nguyễn Tất Thành - Đường 3/2- Đống Đa.- Quang Trung- Trần Cao Vân- Hà Huy Tập- Điện Biên Phủ- Nguyễn Tri Phương- Nguyễn Hữu Thọ- Cánh Mạng Tháng Tám- Ông Ích Đường- Cầu Cẩm Lệ- Quốc lộ 1A- Phan Bội Châu- Phan Chu Trinh - Hòa Hương</item>
+   <item>Bến xe Trung tâm TP Đà Nẵng - Điện Biên Phủ- Lê Duẩn- Hoàng Hoa Thám- Hàm Nghi- Lê Đình Lý- Nguyễn Tri Phương- Trưng Nữ Vương- Duy Tân- Núi Thành- Cánh Mạng tháng Tám- Hoà Cầm- Quốc lộ 1A- Tỉnh lộ 610- Mỹ Sơn.</item>
+   <item>Nguyễn Phan Vinh (Chợ Mai) – Bùi Quốc Hưng – Vân Đồn – Nguyễn Trung Trực – Ngô Quyền – Cầu Rồng – Bạch Đằng – Lê Văn Duyệt (Trung tâm hành chính thành phố) – Trần Phú – Lê Duẩn – Điện Biên Phủ - Trường Chinh – Quốc lộ 1A – Cầu Đỏ - ĐT 605 – ĐT 609 – Ngã tư Thị trấn Ái Nghĩa – Cầu Quảng Huế - Đại Chánh (Huyện Đại Lộc – Quảng Nam).</item>
+</string-array> 
+<string-array name="luotve">
+   <item>- Lượt về:</item>
+   <item>- Lượt về:</item>
+   <item>- Lượt về:</item>
+   <item>- Lượt về:</item>
+   <item>- Lượt về:</item>
+   <item>- Lượt về:</item>
+</string-array> 
+<string-array name="chitietluotve">
+   <item> Bến xe Hội An - Lê Văn Hiến - Ngũ Hành Sơn - Cầu Nguyễn Văn Trỗi - Bạch Đằng - Phan Đình Phùng - Yên Bái - Lê Duẩn - Điện Biên Phủ - Tôn Đức Thắng - Bến xe Trung tâm Thành phố Đà Nẵng.</item>
+   <item>Bạch Đằng- Trần Quốc Toản -Trần Phú - Hùng Vương - Lý Thái Tổ - Điện Biên Phủ - Tôn Đức Thắng- Nguyễn Lương Bằng-  Kim Liên-</item>
+   <item>Bến xe Ái Nghĩa- Ngã tư Ái Nghĩa- Bệnh viện Bắc Quảng Nam- Ngã ba Hoà Đông- Quộc lộ 14B- Hoà Câm- Cánh Mạng tháng Tám- Núi Thành- Trưng Nữ Vương- Hoàng Diệu-Ông Ích Khiêm- Hùng Vương- Lý Thái Tổ- Điện Biên Phủ- Tôn Đức Thắng- Bến xe Trung tâm thành phố Đà Nẵng-</item>
+   <item>Hòa Hương- Phan Chu Trinh- Phan Bội Châu- Quốc lộ 1A-Cầu Cẩm Lệ-Ông Ích Đường-Cánh Mạng Tháng Tám- Nguyễn Hữu Thọ- Nguyễn Tri Phương-Điện Biên Phủ- Hà Huy Tập- Trần Cao Vân-Quang Trung-Đống Đa.-Đường 3/2- Nguyễn Tất Thành </item>
+   <item>Mỹ Sơn- Tỉnh lộ 610- Quốc lộ 1A- Hoà Cầm- Cánh Mạng tháng Tám- Núi Thành- Duy Tân- Trưng Nữ Vương- Nguyễn Tri Phương- Lê Đình Lý- Hàm Nghi- Hoàng Hoa Thám- Lê Duẩn-  Điện Biên Phủ- Bến xe Trung tâm TP Đà Nẵng</item>
+   <item>Đại Chánh – Cầu Quảng Huế - Ngã tư Thị trấn Ái Nghĩa – ĐT 609 – ĐT 605 – Cầu Đỏ - Quốc lộ 1A – Trường Chinh – Điện Biên Phủ - Lê Duẩn – Bạch Đằng – Lê Văn Duyệt – Trần Phú – Cầu Rồng – Ngô Quyền – Nguyễn Trung Trực – Vân Đồn – Bùi Quốc Hưng – Nguyễn Phan Vinh.</item>
+</string-array> 
+<string-array name="ctykhaithac">
+   <item>- Doanh nghiệp khai thác tuyến:</item>
+   <item>- Doanh nghiệp khai thác tuyến:</item>
+   <item>- Doanh nghiệp khai thác tuyến:</item>
+   <item>- Doanh nghiệp khai thác tuyến:</item>
+   <item>- Doanh nghiệp khai thác tuyến:</item>
+   <item>- Doanh nghiệp khai thác tuyến:</item>
+</string-array> 
+<string-array name="thongtin1">
+   <item>* Công ty cồ phần xe khách và dịch vụ thương mại (DVTM) Đà Nẵng – ĐT: 0511.3680670</item>
+   <item>* Công ty cổ phần Vận tải và Quản lý bến xe Đà Nẵng – ĐT: 0511.3767789</item>
+   <item>* Công ty cổ phần Xe khách và DVTM Đà Nẵng – ĐT: 0511.3680670</item>
+   <item>* Hợp tác xã Vận tải và Kinh doanh tổng hợp Tam Kỳ - ĐT: 0510.3851406</item>
+   <item>* Công ty cổ phần Xe khách và DVTM Đà Nẵng – ĐT: 0511.3680670</item>
+   <item>* Hợp tác xã Dịch vụ Vận tải và Du lịch Hải Vân – ĐT: 0511.3649917</item>
+</string-array> 
+<string-array name="thongtin2">
+   <item>* Hợp tác xã vận tải thủy bộ và khách du lịch Hội An – ĐT: 0510.3861240</item>
+   <item>* Công ty cổ phần giao thông vận tải Quảng Nam – ĐT: 0510.3820011</item>
+   <item>* Công ty TNHH Dịch vụ Vận tải và kinh doanh Đại Lộc </item>
+   <item>* Công ty cổ phần giao thông vận tải Quảng Nam – ĐT: 0510.3820011</item>
+   <item>* Hợp tác xã Dịch vụ Vận tải và Du lịch Hải Vân – ĐT: 0511.3649917</item>
+   <item>* Công ty cổ phần giao thông vận tải Quảng Nam – ĐT: 0510.3820011</item>
+  
+</string-array> 
+<string-array name="thongtin3">
+   <item></item>
+   <item></item>
+   <item>* Công ty TNHH Vận tải Đại Lộc</item>
+   <item>* Hợp tác xã Dịch vụ Vận tải và Du lịch Hải Vân – ĐT: 0511.3649917</item>
+   <item>* Hợp tác xã Dịch vụ Vận tải và Kinh doanh tổng hợp Duy Xuyên- ĐT: 0510.3877225</item>
+   <item></item>
+</string-array> 
+<string-array name="thongtin4">
+   <item></item>
+   <item></item>
+   <item></item>
+   <item>* Công ty cổ phần Xe khách và DVTM Đà Nẵng – ĐT: 0511.3680670</item>
+   <item>* Công ty cổ phần GTVT Quảng Nam – ĐT: 0510.3820011</item>
+   <item></item>
+</string-array> 
+ 
+<string-array name="dialogmessage">
+    <item>@drawable/mot</item>
+    <item>@drawable/hai</item>
+    <item>@drawable/ba</item>
+    <item>@drawable/bon</item>
+    <item>@drawable/sau</item>
+    <item>@drawable/chin</item>
+</string-array>   
+
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen2">
+ 
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" 
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    
+    >
+ 
+    <TextView
+        android:id="@+id/tvTitleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Medium Text"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+      
+     <ImageView
+        android:id="@+id/ivPrvImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvTitleLabel"
+         />
+ 
+    <TextView
+        android:id="@+id/tvtimehoatdong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="5dp"
+       	android:layout_gravity="fill_horizontal"
+       	android:layout_below="@+id/tvTitleLabel"
+        android:text="TextView" />
+    <TextView 
+        android:id="@+id/tvGia"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:layout_marginLeft="110dp"
+         android:layout_below="@+id/tvtimehoatdong"
+        android:text="TextView"
+        />
+    <TextView 
+        android:id="@+id/tvTansuat"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:layout_marginLeft="110dp"
+        android:layout_below="@+id/tvGia"
+        android:text="Test View"
+        />
+    <TextView 
+        android:id="@+id/tvchangduong"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:layout_marginLeft="110dp"
+        android:layout_below="@+id/tvTansuat"
+        android:text="Test View"
+        />
+    
+    
+
+    <TextView 
+        android:id="@+id/luotdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TestView"
+        android:layout_below="@+id/tvchangduong"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView 
+        android:id="@+id/chitietluotdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TestView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/luotdi"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView 
+        android:id="@+id/luotve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TestView"
+        android:layout_below="@+id/chitietluotdi"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView 
+        android:id="@+id/chitietluotve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TestView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/luotve"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView 
+        android:id="@+id/ctykhaithac"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/chitietluotve"
+        android:text="TestView"
+        android:layout_alignParentLeft="true"/>
+    <TextView 
+        android:id="@+id/thongtin1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/ctykhaithac"
+        android:text="TestView"
+        android:layout_alignParentLeft="true"/>
+    <TextView 
+        android:id="@+id/thongtin2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/thongtin1"
+        android:text="TestView"
+        android:layout_alignParentLeft="true"/>
+    <TextView 
+        android:id="@+id/thongtin3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/thongtin2"
+        android:text="TestView"
+        android:layout_alignParentLeft="true"/>
+    <TextView 
+        android:id="@+id/thongtin4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/thongtin3"
+        android:text="TestView"
+        android:layout_alignParentLeft="true"/>
+    
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/thongtin4"
+        android:text="Button" />
+
+ </RelativeLayout>
+</ScrollView>
